@@ -5,7 +5,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			calcularUltimoBalon();
+		calcularUltimoBalon();
 	}
 
 	public static void calcularUltimoBalon() {
@@ -20,7 +20,7 @@ public class Main {
 				System.exit(0);
 			}
 		} while (!(numB >= 1 && numP <= 100 && numP > 0));
-		
+
 		sc.close();
 
 		ArrayList<Integer> balones = new ArrayList<Integer>();
